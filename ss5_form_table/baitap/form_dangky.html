@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Form Simple</title>
+    <style>
+        h3 {
+            background-color: orangered;
+            text-align: center;
+            color: white;
+        }
+        label {
+            color: blue;
+            font-size: 25px;
+        }
+        #hobby {
+            color: orangered;
+            font-size: 20px;
+        }
+    </style>
 
 </head>
 <body>
 
-<form>
+<form style="text-align: center" method="get">
 
     <h3>SỞ THÍCH CỦA BẠN </h3>
-    <p> Họ và tên
-        <input type="text" name="yourname">
-    </p>
-    <p> Email
-        <input type="email" name="email">
-    </p>
+    <label>Họ và tên <input type="text" name="yourname"></label> <br>
+    <br>
+    <label>Email <input type="email" name="email"></label> <br>
+    <br>
     <p > Sở thích
         <input type="checkbox" name="hobby" value="Thể thao"> Thể thao
         <input type="checkbox" name="hobby" value="Âm nhạc"> Âm nhạc
