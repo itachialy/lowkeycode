@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Lowkey.iml" filepath="$PROJECT_DIR$/.idea/Lowkey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lowkeycode.iml" filepath="$PROJECT_DIR$/.idea/lowkeycode.iml" />
     </modules>
   </component>
 </project>
