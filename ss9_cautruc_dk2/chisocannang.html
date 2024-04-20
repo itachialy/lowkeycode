@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉ số cân nặng</title>
+    <script>
+        function kiemtra(){
+            let cannang = document.getElementById("cannang").value
+            let chieucao = document.getElementById("chieucao").value
+            let bmi = cannang / Math.pow(chieucao , 2).toFixed(2)
+            let ketqua =""
+            if (bmi>=30)
+                ketqua = " Béo phì rùi má ơi"
+            else if (bmi>=25)
+                ketqua = " thừa cân nha má"
+            else if (bmi>=18.5)
+                ketqua = " Bình thường má ơi"
+            else
+                ketqua =" Ốm quá má ơi"
+
+            document.getElementById("result").innerHTML= "Chỉ số BMI là : " + bmi + ketqua
+        }
+    </script>
+</head>
+<body>
+<h1>tính chỉ số cân nặng</h1>
+<label for="cannang">Nhập cân nặng : (kg)</label>
+<br>
+<input type="text" id="cannang" >
+<br>
+<br>
+<label for="chieucao">Nhập chiều cao : (m)</label>
+<br>
+<input type="text" id="chieucao" >
+<br>
+<br>
+<button onclick="kiemtra()">Kiểm tra</button>
+<p id="result">Đoán xem nào</p>
+</body>
+</html>

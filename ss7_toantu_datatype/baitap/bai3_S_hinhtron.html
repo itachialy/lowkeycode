@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dien tich hinh tron</title>
+    <script>
+        function tinhDienTich(){
+            var banKinh = parseFloat(document.getElementById("radius").value);
+
+            var dienTich = Math.PI * Math.pow(banKinh,2);
+            document.getElementById("result").innerHTML = "Diện tích của hình tròn là: " + dienTich.toFixed(2);
+        }
+    </script>
+</head>
+<body>
+<input type="number" id="radius" placeholder="Nhập bán kính hình tròn">
+<button onclick="tinhDienTich()">Result</button>
+<p id="result"></p>
+
+
+</body>
+</html>

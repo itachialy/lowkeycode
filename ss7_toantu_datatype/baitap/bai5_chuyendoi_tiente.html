@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen Doi Tien Te</title>
+    <script>
+        function chuyenDoi(x){
+            var Money = document.getElementById("Amount").value;
+            var From = document.getElementById("From").value;
+            var To = document.getElementById("To").value;
+            if ( From == To ){
+                document.getElementById("result").innerText = "Result : " + Money
+            }
+            if ( From == "VND" && To == "USD" ){
+                document.getElementById("result").innerText = "Result : " + Money / 23000 + " $"
+            }
+            if ( From == "USD" && To == "VND" ){
+                document.getElementById("result").innerText = "Result : " + Money * 23000 + " VNĐ"
+            }
+            if (isNaN(x)){
+                console.log (x + " không phải là số ")
+            }
+        }
+    </script>
+</head>
+<body>
+<table border="1px">
+    <tr>
+        <th>
+            <label for="Amount">Amount</label>
+        </th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" id="Amount">
+        </td>
+        <td>
+            <select id="From">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="To">
+                <option value="USD">USD</option>
+                <option value="VND">VND</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="chuyenDoi()">Convert</button>
+        </td>
+    </tr>
+    <p id="result"></p>
+</table>
+</body>
+</html>

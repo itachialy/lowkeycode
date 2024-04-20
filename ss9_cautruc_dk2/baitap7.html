@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính cước điện thoai</title>
+
+</head>
+<body>
+<script>
+    var soPhutGoi = parseInt(prompt("Nhập số phút gọi:"))
+    var soTinNhan = parseInt(prompt("Nhập số tin nhắn đã gửi:"))
+    var giaCuocPhut = 500
+    var giaCuocTinNhan = 150
+
+    var cuocGoi = soPhutGoi * giaCuocPhut
+    var cuocTinNhan = soTinNhan * giaCuocTinNhan
+    var tongCuoc = cuocGoi + cuocTinNhan
+
+
+    document.write("Cước gọi: " + + cuocGoi +" VNĐ"+"<br>")
+    document.write("Cước tin nhắn: "  + cuocTinNhan+" VNĐ"+"<br>" )
+    document.write("Tổng cước: " + tongCuoc+" VNĐ"+"<br>")
+</script>
+</body>
+</html>

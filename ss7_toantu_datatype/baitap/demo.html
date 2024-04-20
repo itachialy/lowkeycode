@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function setValue(number) {
+            let screen = document.getElementById('screen');
+            screen.value += number;
+        }
+
+        function result() {
+            let screen = document.getElementById('screen');
+            let input = screen.value;
+            // eval -> ham tinh gia tri bieu thuc Vd eval('3+4*2') -> 11
+            let res = eval(input);
+            screen.value = res;
+        }
+
+        /*
+          - Cau truc dieu kien
+          - IF, IF_ELSE, SWITCH_CASE
+         */
+    </script>
+    <style>
+        table {
+            width: 200px;
+        }
+
+        button {
+            width: 100%;
+        }
+
+        input {
+            width: 95%;
+        }
+    </style>
+
+
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4">
+            <input id="screen" type="text" value="">
+        </td>
+    </tr>
+    <tr>
+        <td><button onclick="setValue(7)">7</button></td>
+        <td><button onclick="setValue(8)">8</button></td>
+        <td><button onclick="setValue(9)">9</button></td>
+        <td><button onclick="setValue('/')">/</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="setValue(4)">4</button></td>
+        <td><button onclick="setValue(5)">5</button></td>
+        <td><button onclick="setValue(6)">6</button></td>
+        <td><button onclick="setValue('*')">X</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="setValue(1)">1</button></td>
+        <td><button onclick="setValue(2)">2</button></td>
+        <td><button onclick="setValue(3)">3</button></td>
+        <td><button onclick="setValue('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="setValue(0)">0</button></td>
+        <td><button >C</button></td>
+        <td><button onclick="result()">=</button></td>
+        <td><button onclick="setValue('-')">-</button></td>
+    </tr>
+</table>
+</body>
+</html>

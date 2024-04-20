@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai1</title>
+    <script>
+        function tong(){
+            var pointli = parseFloat(document.getElementById("pointli").value)
+            var pointhoa = parseFloat(document.getElementById("pointhoa").value)
+            var pointsinh = parseFloat(document.getElementById("pointsinh").value)
+            var tbcc = (( pointsinh+pointhoa+pointli ) / 3).toFixed(1);
+            document.getElementById("result").innerHTML= "Diem Trung Binh Cong la : " + tbcc
+        }
+    </script>
+</head>
+<body>
+<p>Nhập điểm Lí<p/>
+<input type="number" id="pointli">
+<p>Nhập điểm Hóa</p>
+<input type="number" id="pointhoa">
+<p>Nhập điểm Sinh</p>
+<input type="number" id="pointsinh"> <br><br/>
+<button onclick="tong()">Kiem tra</button>
+<p id="result">Đoán xem bao nhiu điểm</p>
+</body>
+</html>
