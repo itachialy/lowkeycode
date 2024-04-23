@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giai phuong trinh bac 1</title>
+</head>
+<body>
+<script>
+    let a = parseFloat(prompt("Nhập số a"))
+    let b = parseFloat(prompt("Nhập số b"))
+    if (isNaN(a)||isNaN(b))
+        alert("hãy nhập vào số")
+    else{
+        if (a===0) {
+            if (b===0) {
+                alert(" Phương trình vô số nghiệm ")
+            }
+            else {
+                alert(" Phương trình vô nghiệm ")
+            }
+        }
+        else {
+            let x = -b / a
+            alert(" Phương trình có nghiệm : " +x)
+        }
+    }
+
+</script>
+</body>
+</html>

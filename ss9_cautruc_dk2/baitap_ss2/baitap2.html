@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi</title>
+</head>
+<body>
+<script>
+    let m = parseFloat(prompt("Nhập vào số m :"))
+
+    if (isNaN(m)){
+        alert("Không phải số, hãy nhập lại")
+    }
+    else {
+        let ft = (m * 3.2808).toFixed(2)
+        alert(m + "m = " +ft +"ft")
+    }
+
+</script>
+</body>
+</html>
