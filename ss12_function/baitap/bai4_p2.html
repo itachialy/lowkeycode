@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = +prompt("Nhập số vào đây :")
+    function check(){
+        if (isNaN(number)){
+            return false;
+        }
+        return true;
+    }
+    if (check()){
+        alert("true")
+    } else {
+        alert("false")
+    }
+</script>
+</body>
+</html>

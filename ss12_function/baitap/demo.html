@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while (true) {
+        let number = +prompt("Nhập số cần kiểm tra:");
+
+        function isPrime(number) {
+            if (number <= 1) {
+                return false;
+            }
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i === 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        if (isPrime(number)) {
+            alert(number + " là số nguyên tố.");
+        } else {
+            alert(number + " không phải là số nguyên tố.");
+        }
+        //
+        // let continueCheck = confirm("Bạn muốn tiếp tục kiểm tra số nguyên tố không?");
+        // if (!continueCheck) {
+        //     break; // Thoát khỏi vòng lặp while nếu người dùng không muốn tiếp tục kiểm tra
+        // }
+    }
+
+    // alert("Kết thúc chương trình.");
+</script>
+</body>
+</html>

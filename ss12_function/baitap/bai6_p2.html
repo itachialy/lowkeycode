@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while (true){
+        let number =+prompt("Nhập số nguyên dương")
+        function intNumber(){
+            if (isFinite(number) && number >0 ){
+                return true;
+            }
+            return false ;
+        }
+        if (intNumber()){
+            alert("true")
+        } else {
+            alert("false")
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Student {
+        constructor(name, email, age, GPA) {
+            this.name = name
+            this.email = email
+            this.age = age
+            this.GPA = GPA
+        }
+        getInformation(){
+            return `Name: ${this.name}, Age: ${this.age}, Email: ${this.email}, GPA: ${this.GPA}`;
+        }
+        getRank(){
+            if (this.GPA>8){
+                return "Học sinh giỏi"
+            } else if (this.GPA>= 6.5){
+                return  "Học sinh khá"
+            } else {
+                return "Học sinh íuu"
+            }
+        }
+    }
+    const myStudent = new Student("Lê Quang Việt", "toidepzai@gmail.com", 24, 9)
+    document.write(myStudent.getInformation())
+    document.write(myStudent.getRank())
+</script>
+</body>
+</html>

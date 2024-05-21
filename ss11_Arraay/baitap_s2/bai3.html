@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let arr = ['a', '2', '5', 'c', '7', '9', 'z', '6'];
+    // let size = arr.length;
+    //
+    // // Biến để đếm số ký tự số trong mảng
+    // let demSo = 0;
+    //
+    // // Duyệt qua từng phần tử trong mảng
+    // for (let i = 0; i < size; i++) {
+    //     if (!isNaN(parseInt(arr[i])))
+    //         demSo++; // Nếu là ký tự số, tăng số lượng ký tự số lên
+    // }
+    //
+    // document.write("Số ký tự số trong mảng là: " + demSo);
+    //cách 2
+
+        // tao dc mang do nguoi dung
+        let n = +prompt("So luong phan tu:")
+        let i = 0;
+        let array = [];
+        while (i < n) {
+        let item = prompt("Nhap vao phan tu vi tri " + i + " :")
+        array.push(item);
+        i++;
+    }
+
+        let count = 0; // tạo biến đếm sl phần tử là số
+        for (let i = 0; i < array.length; i++) {
+        if (!isNaN(parseInt(array[i])) ){ // nếu là số thì biến đếm tăng lên 1
+        count++;
+    }
+    }
+        document.write("Các phần tử đã nhập : " +array +"<br>")
+        document.write("So luong phan tu la so trong mang: " + count)
+
+
+</script>
+</body>
+</html>

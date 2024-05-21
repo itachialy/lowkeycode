@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [2,4,1,5,12,23,34,25,53,41]
+    let maxNum = numbers[0]
+    let maxIndex = 0
+    for (let i = 0; i < numbers.length ; i++) {
+        if (numbers[i]> maxNum){
+            maxNum = numbers[i]
+            maxIndex = i
+        }
+    }
+    document.write("Phần tử lớn nhất là: " + maxNum + "<br>")
+    document.write("Vị trí phần tử lớn nhất là: " + maxIndex)
+</script>
+</body>
+</html>

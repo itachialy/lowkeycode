@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let nhietDo
+  let nhapLai = true
+  while (nhapLai){
+      nhietDo = parseFloat(prompt("Nhập vào nhiệt độ hiện tại :"))
+    if (isNaN(nhietDo)){
+      alert("Hãy nhập số : ")
+    }
+    else {
+      if (nhietDo > 100){
+        alert("Vui lòng giảm nhiệt độ")
+      } else if (nhietDo < 20) {
+        alert("Vui lòng tăng nhiệt độ lên")
+      } else {
+        alert("Nhiệt độ bình thường")
+      }
+    }
+  }
+</script>
+</body>
+</html>

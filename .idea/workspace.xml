@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3348bdb-dc50-41df-ba71-5fd7829f61cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss11_Arraay/baitap/baitap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_function/baitap/bai5_p2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cautruc_dk2/baitap_ss2/baitap10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cautruc_dk2/baitap_ss2/baitap9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_form_table/baitap/survay_khachhang.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_form_table/baitap/survay_khachhang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cautruc_dk2/baitap4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cautruc_dk2/baitap4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -38,6 +43,11 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.bai4_p2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bai6_p2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.baitap1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.demo.html.executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.kiemtra_SNT.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -46,9 +56,16 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\lowkeycode" />
+      <recent name="C:\lowkeycode\ss4_git_html" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +78,17 @@
       <workItem from="1712992051051" duration="923000" />
       <workItem from="1713007784346" duration="5525000" />
       <workItem from="1713266654810" duration="5753000" />
-      <workItem from="1713611826742" duration="3239000" />
+      <workItem from="1713611826742" duration="7585000" />
+      <workItem from="1713871607080" duration="5879000" />
+      <workItem from="1714043822015" duration="9419000" />
+      <workItem from="1714216681997" duration="7576000" />
+      <workItem from="1714358859426" duration="10851000" />
+      <workItem from="1714648336726" duration="6174000" />
+      <workItem from="1714821551240" duration="8289000" />
+      <workItem from="1715080886919" duration="10138000" />
+      <workItem from="1715426755445" duration="8481000" />
+      <workItem from="1715685920506" duration="7603000" />
+      <workItem from="1715858491972" duration="7050000" />
     </task>
     <servers />
   </component>
