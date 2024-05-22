@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<table style=" border: 1px ; solid black; width: 500px; float: right">
+
+    <thead>
+    <tr>
+        <th colspan="2"> Thông tin học viên</th>
+    </tr>
+    <tr>
+        <th>STT</th>
+        <th>Tên</th>
+        <th>Số điện thoại</th>
+        <th>Lớp</th>
+        <th>Ngày sinh</th>
+        <th>Giới tính</th>
+        <th colspan="2">Chức năng</th>
+    </tr>
+    </thead>
+    <tbody id="display" style="text-align: center">
+    <tr>
+        <td>1</td>
+        <td>Đỗ Itachi</td>
+        <td>0225558899</td>
+        <td>55c3</td>
+        <td>13/09/2000</td>
+        <td>Nam</td>
+    </tr>
+    </tbody>
+
+
+</table>
+
+<table border="1" style="border-collapse: collapse">
+    <h1>Quản Lý Học Sinh</h1>
+    <tr id="id1">
+        <th colspan="2"> Thông tin học viên</th>
+    </tr>
+    <tr>
+        <th>Họ và tên</th>
+        <td><input type="text" id="name" placeholder="Tên học sinh" ></td>
+    </tr>
+    <tr>
+        <th>Số điện thoại</th>
+        <td><input type="text" id="phone" placeholder="Số điện thoại" ></td>
+    </tr>
+    <tr>
+        <th>Lớp</th>
+        <td><input type="text" id="classs" placeholder="Lớp" ></td>
+    </tr>
+    <tr>
+        <th>Ngày sinh</th>
+        <td><input type="date" id="birthday" placeholder="Ngày sinh" ></td>
+    </tr>
+
+    <tr>
+        <th>Giới tính</th>
+        <td><select id="gender" >
+            <option value="">Chọn giới tính</option>
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+            <option value="Khác">Khác</option>
+        </select></td>
+    </tr>
+    <tr>
+        <th colspan="2">
+            <button onclick="add()">Thêm</button>
+        </th>
+    </tr>
+</table>
+
+<script>
+
+    class Quanlyhv {
+        constructor(name, phone, classs, birthday, gender="") {
+            this.name = name
+            this.phone = phone
+            this.classs = classs
+            this.birthday = birthday
+            this.gender = gender
+        }
+        getName(){
+            return this.name
+        }
+        setName(name){
+            this.name = name
+        }
+        getPhone(){
+            return this.phone
+        }
+        setPhone(phone){
+            this.phone = phone
+        }
+        getClasss(){
+            return this.classs
+        }
+        setClasss(classs){
+            this.classs = classs
+        }
+        getBirthday(){
+            return this.birthday
+        }
+        setBirthday(birthday){
+            this.birthday = birthday
+        }
+        getGender(){
+            return this.gender
+        }
+        setGender(gender){
+            this.gender = gender
+        }
+        edit(name, phone, classs ,birthday,gender){
+            this.name = name
+            this.phone = phone
+            this.classs = classs
+            this.birthday = birthday
+            this.gender = gender
+        }
+    }
+    let myQuanlyhv = new Quanlyhv("Nguyễn Hữu Itachi","09222333444","anbu","22/5/1567",'Nam')
+    let myQuanlyhv1 = new Quanlyhv("Nguyễn Văn Itachi","09222333555" ,"anbu","22/5/1567",'Nam')
+    let myQuanlyhv2 = new Quanlyhv("Nguyễn Itachi","09222333666","anbu","22/5/1567",'Nam')
+    let arr = [myQuanlyhv, myQuanlyhv1, myQuanlyhv2]
+    function display() {
+        let str = ""
+        for (let i = 0; i < arr.length ; i++) {
+            str += "<tr>"
+            str += "<td>" + (i+1) + "</td>"
+            str += "<td>"+ arr[i].name + "</td>"
+            str += "<td>" + arr[i].phone + "</td>"
+            str += "<td>" + arr[i].classs + "</td>"
+            str += "<td>" + arr[i].birthday + "</td>"
+            str += "<td>" + arr[i].gender + "</td>"
+            str += "<td><button onclick='updateFix()'>Sửa</button></td>"
+            str += "<td><button onclick='updateDel()'>Xóa</button></td>"
+            str += "</tr>"
+        }
+        document.getElementById("display").innerHTML = str;
+    }
+    display()
+    function add(){
+            let name = document.getElementById("name").value
+            let phone = document.getElementById("phone").value
+            let classs = document.getElementById("classs").value
+            let birthday = document.getElementById("birthday").value
+            let gender = document.getElementById("gender").value
+            let addQuanly = new Quanlyhv(name, phone, classs, birthday, gender)
+            arr.push(addQuanly)
+            display()
+    }
+</script>
+</body>
+
+</html>

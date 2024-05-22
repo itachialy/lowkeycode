@@ -51,22 +51,22 @@ function addNew (){
     arr.push(newProduct)
     display()
 }
-function updateProduct(index){
-    let name = prompt("Name :")
-    let color = prompt("Color :")
-    let quantity = +prompt("Quantity :")
-    arr[index].setName(name)
-    arr[index].setColor(color)
-    arr[index].setQuantity(quantity)
-    display()
-}
-function updateDelete(index){
-    let check = confirm("Có chắc xóa không???")
-    if (check){
-        arr.splice(index,1)
-        display()
-    } else {
-        alert("đùa à")
-    }
+// function updateProduct(index){
+//     let name = prompt("Name :")
+//     let color = prompt("Color :")
+//     let quantity = +prompt("Quantity :")
+//     arr[index].setName(name)
+//     arr[index].setColor(color)
+//     arr[index].setQuantity(quantity)
+//     display()
+// }
+// function updateDelete(index){
+//     let check = confirm("Có chắc xóa không???")
+//     if (check){
+//         arr.splice(index,1)
+//         display()
+//     } else {
+//         alert("đùa à")
+//     }
 
 }

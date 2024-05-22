@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3348bdb-dc50-41df-ba71-5fd7829f61cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss11_Arraay/baitap/baitap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_function/baitap/bai5_p2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cautruc_dk2/baitap_ss2/baitap10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cautruc_dk2/baitap_ss2/baitap9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cautruc_dk2/baitap4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cautruc_dk2/baitap4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_OOP/baitap/quanlydanhsach.js" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_OOP/baitap/quanlydanhsach.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.bai4_p2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bai6_p2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.baitap1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.demo.html.executor&quot;: &quot;Coverage&quot;,
-    &quot;JavaScript Debug.kiemtra_SNT.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.bai4_p2.html.executor": "Run",
+    "JavaScript Debug.bai6_p2.html.executor": "Run",
+    "JavaScript Debug.baitap1.html.executor": "Run",
+    "JavaScript Debug.demo.html.executor": "Run",
+    "JavaScript Debug.kiemtra_SNT.html.executor": "Run",
+    "JavaScript Debug.qlsv.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\lowkeycode" />
@@ -89,6 +86,7 @@
       <workItem from="1715426755445" duration="8481000" />
       <workItem from="1715685920506" duration="7603000" />
       <workItem from="1715858491972" duration="7050000" />
+      <workItem from="1716290405210" duration="9204000" />
     </task>
     <servers />
   </component>
